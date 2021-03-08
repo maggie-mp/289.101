@@ -1,0 +1,19 @@
+.red{
+ color: firebrick;
+ }
+
+#box1 {
+    background-color: yellow;
+    height: 100px;
+    width: 200px;
+    border: 10px solid red;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box2{
+    background-color: olive;
+    width: 100px;
+    height: 100px; 
+    margin-top: 45px;
+}
