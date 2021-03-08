@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
+
+/*
  *{ outline: 1px solid red; } 
+
+ */
+
+/* fix image placement for body */
 
 body {
     background: #82DDB5;
@@ -15,7 +21,7 @@ body {
 #nav {
     background-color: #6B9;
     padding: 20px 0px;
-    color  : #FFF;
+    color  : white;
     font-weight: bold;
     text-align: center;
     word-spacing: 2em;
@@ -54,15 +60,40 @@ body {
     background-color: rgba(200, 240, 220, 0.9);
 }
 
-#what p {
-    width: 100%;
-    max-width: 600px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #what h1 {
     text-align: center;
-    padding: 20px 0;
-    color: #386;
+    color: #347788;
+    padding-top: 1em;
 }
+
+#what p {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #347788;
+    font-size: medium;
+}
+
+#what p + p {
+    font-size: small;
+}
+
+
+#what h2 {
+    text-align: center;
+    color: #347788;
+    font-size: medium;
+}
+
+
+/* work out sponsor logos later */
+#sponsor_logos {
+
+}
+
+
+
+
+
