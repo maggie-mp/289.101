@@ -58,13 +58,14 @@ body {
 
 #what {
     background-color: rgba(200, 240, 220, 0.9);
+    padding: 1em;
 }
 
 
 #what h1 {
     text-align: center;
     color: #347788;
-    padding-top: 1em;
+
 }
 
 #what p {
@@ -90,9 +91,27 @@ body {
 
 /* work out sponsor logos later */
 #sponsor_logos {
-
 }
 
+
+#why {
+    background-color: #b6ead3;
+    padding: 1em;
+}
+
+#why h1 {
+    text-align: center;
+    color: #347788;
+}
+
+#why p {
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #347788;
+    font-size: small;
+}
 
 
 
