@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 
-/*
+
  *{ outline: 1px solid red; } 
 
- */
 
 /* fix image placement for body */
 
@@ -56,6 +55,7 @@ body {
 }
 
 
+
 #what {
     background-color: rgba(200, 240, 220, 0.9);
     padding: 1em;
@@ -94,6 +94,7 @@ body {
 }
 
 
+
 #why {
     background-color: #b6ead3;
     padding: 1em;
@@ -111,6 +112,31 @@ body {
     margin-right: auto;
     color: #347788;
     font-size: small;
+}
+
+
+#where {
+    background-image: url('img/map.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 11em;
+    margin: 0px;
+}
+
+/* work out heading space later */
+#where h1 {
+	text-align: center;
+	color: #bb4488;
+}
+
+#where p {
+	text-align: right;
+	font-weight: bold;
+	color: #bb4488;
+}
+
+#when {
+	
 }
 
 
