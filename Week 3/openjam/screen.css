@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 
-
+/*
  *{ outline: 1px solid red; } 
 
-
+*/
 
 body {
     background: #82DDB5;
@@ -100,7 +100,6 @@ body {
     background-size: small, small;
     margin: 0, 0;
     padding: 1em, 1em;
-
 }
 
 
@@ -130,21 +129,27 @@ body {
     background-image: url('img/map.gif');
     background-repeat: no-repeat;
     background-position: center;
-    padding: 12em;
+    background-size: auto;
+    padding-top: 2em;
+    padding-bottom: 25em;
+    padding-left: 0em;
+    padding-right: 0em;
     margin: 0px;
 }
 
-/* work out heading space later */
 #where h1 {
 	text-align: center;
-	margin: 0px;
+	margin-top: 12px;
 	color: #bb4488;
 }
 
 #where p {
 	text-align: right;
+    margin-right: 20em;
+    margin-left: 1em;
 	font-weight: bold;
 	color: #bb4488;
+    font-size: large;
 }
 
 
