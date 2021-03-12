@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
 
-
+/*
  *{ outline: 1px solid red; } 
-
+*/
 
 
 body {
@@ -238,7 +238,7 @@ body {
     background-position: center;
     max-width: 5%;
     height: 5%;
-    margin: 5em;
+    margin-left: 5em;
 }
 
 
