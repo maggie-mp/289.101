@@ -2,11 +2,6 @@
 
 
 
- 
- *{ outline: 1px solid red; }  
-
-
-
 body {
     background: #82DDB5;
     background-image: url('img/illustration.gif'), url('img/texture.jpg');
@@ -189,7 +184,7 @@ body {
 	font-size: large;
 }
 
-/* fix alignment of borders */
+
 
 #when ul{
 	text-align: left;
@@ -231,19 +226,23 @@ body {
 }
 
 #footer {
-     background-position: center;
-     padding: 1em;
-
+     background-image: url('img/texture.jpg');
+     background-repeat: no-repeat;
+     background-position: top-left;
+     background-size: auto;
+     margin: 0;
+     padding-bottom: 2em;
+     padding-top: 1em;
+     padding-left: 37em;
 }
-/* sort out icons */
+
 #footer img {
     background-image: url('icon-twitter.svg'), url('icon-facebook.svg'), url('icon-itch.svg');
     background-repeat: no-repeat;
-    max-width: 13em;
-    height: 4em;
+    max-width: 20em, auto;
+    height: 3em;
     padding: 1em;
 }
-
 
 
 
