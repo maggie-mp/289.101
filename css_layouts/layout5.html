@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Layout 4</title>
+    <title>Layout 5</title>
     <style>
     
             div {
@@ -16,30 +16,28 @@
             }
 
             #blue {
+                display: grid;
                 background-color: blue;
                 height: 200px;
+                padding: 10px;
+                grid-template-columns: 25% 25% 25% 25%;
             }
 
-            #green {
-                display:grid;
-                background-color: lime;
-                grid-template-columns: 50% 50%;
-                height: 200px;
-                padding: 20px;
-            }
-        
-            .yellow {
+        .yellow {
                 background-color: yellow;
                 margin: 20px;
         }
         
-          #red {
-                display: grid;
-                background-color: red;
-                grid-template-columns: 50% 50%;
-                height: 400px;
-                padding:20px;
-            }
+        
+        #red {
+            display: grid;
+            background-color: red;
+            height: 400px;
+            grid-template-columns: 30% 70%;
+            padding: 10px;
+        }
+        
+        
         
         </style>
     </head>
@@ -47,15 +45,11 @@
     
     <body>   
          <div id="container">
-            <div id="blue"></div>
-             
-            <div id="green">
+            <div id="blue">
                 <div class="yellow"></div>
-                <div class="yellow"></div>
-             </div> 
+             </div>
              
              <div id="red">
-                <div class="yellow"></div>
                 <div class="yellow"></div>
              </div>
         </div>
