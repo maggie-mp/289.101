@@ -20,7 +20,7 @@
                 background-color: blue;
                 height: 100px;
                 padding: 10px;
-                grid-template-columns: 1fr 3fr;
+                grid-template-columns: 1fr 2fr;
             }
 
             #yellow {
@@ -39,32 +39,66 @@
             #red1 {
                 display: grid;
                 background-color: red;
-                height: 200px;
-                /* Add part top bar */
+                height: 370px;
+                grid-template-rows: 100px 100px;
+                grid-gap: 10px 10px;
                 grid-template-columns: 1fr 1fr 1fr;
                }
+
+               #yellowheader {
+                    background-color: yellow;
+                    margin: 20px;
+                    grid-column-start: 1;
+                    grid-column-end: 4;
+                    padding: 2.5em;
+            }
+
+            #yelloweven {
+                    background-color: yellow;
+                    margin: 20px;
+                    height: 130px;
+                    padding: 2em;
+            }
+            
 
             /* COME BACK TO LATER */
             #bluemiddle {
                 display: grid;
                 background-color: blue;
                 height: 600px;
+                grid-gap: 2px 0px;
                 grid-template-columns: 1fr 1fr 1fr 1fr;
+            }
+
+            #yellowheader2 {
+                    background-color: yellow;
+                    margin: 20px;
+                    padding: 2em;
+                    grid-column-start: 1;
+                    grid-column-end: 5;
             }
 
 
             #yellow2 {
                     display: grid;
                     background-color: yellow;
-                    grid-gap: 1em;
-                    margin: 20px;                    
+                    height: 125px;
+                    width: 150px;
+                    margin: 20px;                 
             }
 
-            /* COME BACK TO LATER */
+
             #green2 {
                 display: grid;
                 background-color: lime;
-                height: 600px;
+                height: 500px;
+            }
+
+            #yellowevengreen {
+                    background-color: yellow;
+                    margin: 20px;
+                    height: 230px;
+                    padding: 3em;
             }
 
 
@@ -83,7 +117,6 @@
                 background-color: blue;
                 height: 60px;
                 padding: 10px;
-                grid-template-columns: 1fr 3fr;
             }
 
 
@@ -104,13 +137,15 @@
           
 
              <div id="red1">
-                <div id="yellow"></div>
-                <div id="yellow"></div>
-                <div id="yellow"></div>
+                <div id="yellowheader"></div>
+                <div id="yelloweven"></div>
+                <div id="yelloweven"></div>
+                <div id="yelloweven"></div>
              </div>
 
 
              <div id="bluemiddle">
+                <div id="yellowheader2"></div>
                 <div id="yellow2"></div>
                 <div id="yellow2"></div>
                 <div id="yellow2"></div>
@@ -126,9 +161,15 @@
         </div>
 
         <div id="green2">
+            <div id="yellowheader"></div>
+            <div id="yellowevengreen"></div>
+            <div id="yellowevengreen"></div>
+            <div id="yellowevengreen"></div>
         </div>
 
+
         <div id="red2">
+            <div id="yellowheader"></div>
         </div>
 
         <div id="blueend">
