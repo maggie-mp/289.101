@@ -161,7 +161,7 @@ body {
 .portfolio {
     background-color: white;
     padding: 1em;
-    height: 100em;
+    height: 75em;
 }
 
 .portfolio h1 {
@@ -174,8 +174,9 @@ body {
 .gallery {
   margin: 1em;
   border: 1px solid #ccc;
-  width: 400px;
-  float: left;
+  width: 300px;
+  margin-right: 2em;
+  float: right;
 }
 
 .gallery:hover {
@@ -187,38 +188,39 @@ body {
   height: auto;
 }
 .desc {
-  padding: 15px;
+  padding: 10px;
   text-align: center;}
+   
 
-       
+/*about */
 
-/*about*/
 
 .about {
-	background-image: url('img/me.jpg');
+	background-image: url('img/me copy.jpg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: 90em;
     padding-top: 2em;
     padding-bottom: 25em;
-    padding-left: 0em;
-    padding-right: 20em;
     margin: 0;
 	background-position: center;
 }
 
-.about h1 {
-    font-family: 'Sansita Swashed', cursive;
-    color: white;
-    text-align: left;
-    margin: 20px;
+.text {
+	text-align: justify;
+	margin-left: 55em;
+	margin-right: 3em;
 }
 
-.about p {
-	background: white;
+.text h1 {
+    font-family: 'Sansita Swashed', cursive;
+    color: white;
+}
+
+.text p {
     font-family: 'Open Sans', sans-serif;
-    margin: 3em;
     font-size: large;
+    color: white;
 }
 
 
