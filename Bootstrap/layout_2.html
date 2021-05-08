@@ -4,7 +4,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Layout 1</title>
+        <title>Layout 2</title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -16,48 +16,65 @@
         
         <style>
             * { outline: white solid 8px}
-            
+
             
             /*xs devices portrait phone*/
             body {background-color:red}
              .blue {
                 background-color: #3FB4FF;
-                height: 50px;
+                height: 75px;
             }
 
             .green {
-                background-color: green;
-                height: 110px;
+                background-color: #A6D800;
+                height: 75px;
             }
-            
-            .orange {
-                background-color: orange;
+
+            .grey {
+                background-color: #C4C4C4;
                 height: 200px;
             }
             
+
             
             
             /*sm devices */
             @media (min-width: 576px){
             body {background-color:orange}
             }
+            .blue {
+                background-color: #3FB4FF;
+                height: 75px;
+            }
+
+            .green {
+                background-color: #A6D800;
+                height: 75px;
+            }
+
+            .grey {
+                background-color: #C4C4C4;
+                height: 250px;
+            }
+
+
+            .purple {
+                background-color: #AF3552;
+                height: 250px;
+            }
+
+
+
+            
         
       
             /* md devices tablet*/
             @media (min-width: 768px){
             body {background-color:yellow}
             }
-            
-            .green {
-                background-color: green;
-                height: 200px;
-            }
-            .orange {
-                background-color: orange;
-                height: 300px;
-            }
-            
-            
+
+
+
             /* lg devices desktop*/
             @media (min-width: 992px){
             body {background-color:blue}
@@ -79,20 +96,30 @@
     <body>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 blue"></div>
-                <div class="col-lg-6 blue"></div>
+                <div class="col-sm-12 blue"></div>
             </div>
+
+        <div class= "row">
+                <div class="col-sm-12 green"></div>
+            </div>
+
+        <div class= "row">
+                <div class="col-sm-6 grey"></div>
+                <div class="col-sm-6 grey"></div>
+                <div class="col-sm-6 grey"></div>
+                <div class="col-sm-6 grey"></div>
+                <div class="col-sm-6 grey"></div>
+                <div class="col-sm-6 grey"></div>
+            </div>
+
+
+        <div class= "row">
+                <div class="col-sm-12 purple"></div>
+            </div>
+
+
             
-        
-            <div class= "row">
-                <div class="col-lg-12 green"></div>
-            </div>
             
-            <div class= "row">
-                <div class="col-lg-12 orange"></div>
-                <div class="col-lg-12 orange"></div>
-                <div class="col-lg-12 orange"></div>
-            </div>
             
            
         </div>
