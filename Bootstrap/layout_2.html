@@ -16,11 +16,7 @@
         
         <style>
             * { outline: white solid 8px}
-
-            
-            /*xs devices portrait phone*/
-            body {background-color:red}
-             .blue {
+                 .blue {
                 background-color: #3FB4FF;
                 height: 75px;
             }
@@ -32,29 +28,7 @@
 
             .grey {
                 background-color: #C4C4C4;
-                height: 200px;
-            }
-            
-
-            
-            
-            /*sm devices */
-            @media (min-width: 576px){
-            body {background-color:orange}
-            }
-            .blue {
-                background-color: #3FB4FF;
-                height: 75px;
-            }
-
-            .green {
-                background-color: #A6D800;
-                height: 75px;
-            }
-
-            .grey {
-                background-color: #C4C4C4;
-                height: 250px;
+                height: 150px;
             }
 
 
@@ -63,11 +37,25 @@
                 height: 250px;
             }
 
+            .pink {
+                background-color: #EC8FEF;
+                height: 250px;
+            }
 
 
             
-        
-      
+            /*xs devices portrait phone*/
+            body {background-color:red}
+    
+
+            
+            /*sm devices */
+            @media (min-width: 576px){
+            body {background-color:orange}
+            }
+
+
+
             /* md devices tablet*/
             @media (min-width: 768px){
             body {background-color:yellow}
@@ -85,14 +73,13 @@
             @media (min-width: 1200px){
             body {background-color:blue}
             }   
-        </style>
-        
-        
-      
-        
+        </style>  
         
     </head>
     
+
+
+
     <body>
         <div class="container">
             <div class="row">
@@ -104,18 +91,21 @@
             </div>
 
         <div class= "row">
-                <div class="col-sm-6 grey"></div>
-                <div class="col-sm-6 grey"></div>
-                <div class="col-sm-6 grey"></div>
-                <div class="col-sm-6 grey"></div>
-                <div class="col-sm-6 grey"></div>
-                <div class="col-sm-6 grey"></div>
+                <div class="col-sm-6 col-md-2 grey"></div>
+                <div class="col-sm-6 col-md-2 grey"></div>
+                <div class="col-sm-6 col-md-2 grey"></div>
+                <div class="col-sm-6 col-md-2 grey"></div>
+                <div class="col-sm-6 col-md-2 grey"></div>
+                <div class="col-sm-6 col-md-2 grey"></div>
             </div>
 
 
         <div class= "row">
-                <div class="col-sm-12 purple"></div>
+                <div class="col-sm-12 col-md-6 purple"></div>
             </div>
+
+            <div class= "d-none d-lg-block d-xl-block pink"></div>
+
 
 
             
