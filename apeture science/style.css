@@ -1,0 +1,46 @@
+* { outline: white 8px solid }
+
+            /* xs devices */
+            body { background-color: red }
+
+            .blue {
+                background-color: #3FB4FF;
+                height: 80px;
+            }
+
+
+
+
+
+            /* sm devices */
+            @media (min-width: 576px) {
+                body { background-color: orange }
+            }
+
+            /* md devices */
+            @media (min-width: 768px) {
+                body { background-color: yellow }
+
+
+
+
+
+             /* lg devices */
+            @media (min-width: 992px) {
+                body { background-color: green }
+
+                .blue {
+                    height: 60px;
+                }
+
+
+
+             /* xl devices */
+            @media (min-width: 1200px) {
+                body { background-color: blue }
+            }
+
+
+
+
+            
