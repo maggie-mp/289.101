@@ -92,7 +92,9 @@
 
 
 
-            
+            .navbar-brand {
+              padding: 1em;
+            }
 
 
 
@@ -152,6 +154,28 @@
             ..newsfeed ul {
                 font-size: 2vw;
             }
+
+
+            /*about*/
+            .about {
+              padding: 3em;
+            }
+
+            .about h1{
+              font-size: 3vw;
+              width: 50%;
+            }
+
+            .about p {
+              font-size: 2vw;
+            }
+
+
+            .card {
+              width: 50%;
+            }
+
+
 
 
 
