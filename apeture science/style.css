@@ -1,4 +1,4 @@
-* { outline: black 2px solid } 
+/* * { outline: black 2px solid } 
 
             /* xs devices */
             body { background-color: red }
@@ -35,10 +35,6 @@
             .responsive {
               width: 100%;
               height: auto;
-            }
-
-            h1 {
-                font-size: 20px;
             }
 
             .hero-text {
@@ -138,6 +134,26 @@
             .hero-text button:hover {
               background-color: #555;
               color: white;
+            }
+
+            .navbar-brand {
+                font-size: 2vw;
+            }
+
+
+            /*newsfeed*/
+
+            .newsfeed {
+                background-color: white;
+                padding: 3em;
+            }
+
+            .newsfeed h1 h3 {
+                font-size: 3vw;
+            }
+
+            ..newsfeed ul {
+                font-size: 2vw;
             }
 
 
