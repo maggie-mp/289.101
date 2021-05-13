@@ -3,8 +3,33 @@
             /* xs devices */
             body { background-color: red }
 
+            .blue {
+                background-color: #3FB4FF;
+                height: 100px;
+            }
+
+            .green {
+                background-color: #A6D800;
+                height: 80px;
+            }
+
             .orange {
                 background-color: #FFAE2E;
+            }
+
+            .grey {
+                background-color: #C4C4C4;
+                height: 180px;
+            }
+
+            .pink {
+                background-color: #EC8FEF;
+                height: 180px;
+            }
+
+            .maroon {
+                background-color: #AF3552;
+                height: 240px;
             }
 
             .responsive {
@@ -34,12 +59,27 @@
             @media (min-width: 768px) {
                 body { background-color: #3081a7 }
 
+                .green {
+                    height: 240px;
+                }
+
+                .maroon {
+                    height: auto;
+                }
             }
 
             /* lg devices */
             @media (min-width: 992px) {
                 body { background-color: #3081a7 }
 
+                .blue {
+                    height: 60px;
+                }
+
+                .green {
+                    height: auto;
+                }
+            }
 
             /* xl devices */
             @media (min-width: 1200px) {
@@ -50,17 +90,12 @@
 
 /*all the fancy stuff*/
 
-          
-            .navbar-brand {
-              padding: 1em;
-            } 
 
-             .navbar-brand {
-                font-size: 2vw;
+            .logo {
+                width: 100%;
+                text-align: center;
+
             }
-
-            
-
 
 
 
@@ -78,7 +113,7 @@
             .hero-text {
               text-align: center;
               position: absolute;
-              top: 30%;
+              top: 40%;
               left: 50%;
               transform: translate(-50%, -50%);
               color: black;
@@ -101,42 +136,10 @@
               color: white;
             }
 
-
-
-            /*newsfeed*/
-
-            .newsfeed {
-                background-color: white;
-                padding: 3em;
-            }
-
-            .newsfeed h1 h3 {
-                font-size: 3vw;
-            }
-
-            ..newsfeed ul {
+            .navbar-brand {
                 font-size: 2vw;
             }
 
-
-            /*about*/
-            .about {
-              padding: 3em;
-            }
-
-            .about h1{
-              font-size: 3vw;
-              width: 50%;
-            }
-
-            .about p {
-              font-size: 2vw;
-            }
-
-
-            .card {
-              width: 50%;
-            }
 
 
 
