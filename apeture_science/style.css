@@ -141,6 +141,17 @@
             }
 
 
+            /*about*/
+            .col-sm-6 {
+              padding: 2em;
+            }
+
+            .col-sm-6 h1 p {
+              padding: 2em;
+            }
+
+
+
 
             /*ethics*/
 
@@ -148,6 +159,11 @@
               color: white;
               text-align: center;
             }
+
+
+
+
+
 
 
 
