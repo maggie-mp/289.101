@@ -1,7 +1,12 @@
 /* * { outline: black 2px solid } 
 
+
+html {
+    scroll-behavior: smooth;
+}
+
             /* xs devices */
-            body { background-color: red }
+            body { background-color: #3081a7 }
 
             .blue {
                 background-color: #3FB4FF;
