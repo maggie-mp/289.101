@@ -155,6 +155,30 @@ html {
               padding: 2em;
             }
 
+            /*Tech*/
+
+            .image {
+              position: relative;
+              width: 100%;
+            }
+
+            .image__img {
+              display: block;
+              width: 100%;
+            }
+
+            .image__overlay {
+              position: absolute;
+              top: 0;
+              left: 0;
+              width: 100%;
+              height: 100%;
+              background: rgba(0,0,0, 0.6)
+              color: white;
+            }
+
+
+
 
 
 
