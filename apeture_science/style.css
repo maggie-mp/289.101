@@ -98,8 +98,11 @@ html {
 
 
             /*about*/
+
+
             .col-sm-6 {
               padding: 2em;
+              background-color: #3081a7;
             }
 
             .col-sm-6 h1 p {
