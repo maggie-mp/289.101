@@ -1,49 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap');
 
             body, html {
-  height: 100%;
-  margin: 0;
-}
+            height: 100%;
+            margin: 0;
+            scroll-behavior: smooth;
+          }
 
             /* xs devices */
-            body { background-color: red }
-
+            body { background-color: #3081a7}
 
             .responsive {
               width: 100%;
               height: auto;
             }
+
+
+
             
 
 
             
             /* sm devices */
             @media (min-width: 576px) {
-                body { background-color: orange }
+                body { background-color: #3081a7}
+
+                    .overlay h1, p {
+                      padding: 0.5em; }
+
             }
 
             /* md devices */
             @media (min-width: 768px) {
-                body { background-color: yellow }
+                body { background-color: #3081a7}
 
             }
 
             /* lg devices */
             @media (min-width: 992px) {
-                body { background-color: green }
-
-                .blue {
-                    height: 60px;
-                }
-
-                .green {
-                    height: auto;
-                }
+                body { background-color: #3081a7}
             }
 
             /* xl devices */
             @media (min-width: 1200px) {
-                body { background-color: #3081a7 }
+                body { background-color: #3081a7}
             }
 
 
@@ -53,12 +52,11 @@
 
             }
 
-            /*
-
-
+/*banner*/
 
             .hero-image {
-              height: 50%;
+              background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/portal.jpg");
+              height: 70%;
               background-position: center;
               background-repeat: no-repeat;
               background-size: cover;
@@ -68,10 +66,10 @@
             .hero-text {
               text-align: center;
               position: absolute;
-              top: 40%;
+              top: 50%;
               left: 50%;
               transform: translate(-50%, -50%);
-              color: black;
+              color: white;
             }
 
             .hero-text button {
@@ -90,48 +88,8 @@
               color: white;
             }
 
-            .navbar-brand {
-                font-size: 2vw;
-            }*/
 
-
-
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/portal.jpg");
-  height: 70%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
-
-.hero-text button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 10px 25px;
-  color: black;
-  background-color: #ddd;
-  text-align: center;
-  cursor: pointer;
-}
-
-.hero-text button:hover {
-  background-color: #555;
-  color: white;
-}
-
-
-            /*about*/
+/*about*/
 
 
             .col-sm-6 {
@@ -143,9 +101,23 @@
               padding: 2em;
             }
 
-            /*tech*/
+            .col-sm-6 img {
+              padding-top: 2em;
+            }
 
-            .overlay {
+
+            /*tech2*/
+
+            .tech-section{
+              background-image: url("img/portal_gun.jpg");
+              height: 100%;
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+              position: relative;
+            }
+
+             .overlay {
               position: absolute;
               top: 50%;
               left: 50%;
@@ -160,22 +132,37 @@
               position: absolute;
               transform:translate(-50%, -50%);
               text-align: center;
-              padding-top: 35%;
+              padding: 25%;
             }
 
             .imghov:hover .overlay {
                 opacity: 1;
             }
 
-            /*ethics*/
+/*ethics*/
 
-            .container {
-              padding-top: 50px;
+
+            .containersafty {
+              background-color: silver;
+              padding: 2em;
             }
 
-            .container h6 {
+            .containersafty text-center {
+              background-color: red;
+            }
+
+            .containersafty h6 {
               color: white;
               text-align: center;
+            }
+
+
+            /*footer*/
+            .footer
+            {
+              margin: 0;
+              background: #3081a7;
+              padding: 1em; 
             }
 
 
